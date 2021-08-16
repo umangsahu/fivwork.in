@@ -771,7 +771,7 @@ z-index: 3;
 
 }
 @media  screen and (max-width:768px){}
-@media  screen and (max-width:456px){
+@media  screen and (max-width:490px){
     html{
     font-size:20px;
   }
