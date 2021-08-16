@@ -387,7 +387,10 @@ z-index: 3;
 
 
 @media screen and (max-width:1242px){
- 
+  html{
+    font-size:15px
+    
+  }
   .home .left-container {
     position: relative;
     bottom:170px;
@@ -768,3 +771,200 @@ z-index: 3;
 
 }
 @media  screen and (max-width:768px){}
+@media  screen and (max-width:456px){
+    html{
+    font-size:20px;
+  }
+  .burger{
+    left:210px
+  }
+  .home{
+    display:flex;
+    flex-direction: column;
+    
+  }
+    .home .left-container {
+    position: relative;
+    bottom:110px;
+      left:30px;
+    width:100vw;
+    height:40vh;
+}
+  .home .right-container{
+    height:50vh;
+     
+  }
+  .home .right-container img{
+      position: relative;
+      width:100vw;
+      top:110px;
+}
+ .hosting{
+  height:160vh;
+  width:100%;
+  background:rgba(128, 128, 128, 0.133);
+display: flex;
+  
+display:-webkit-flex;
+
+}
+.hosting .preface-text {
+  
+  top:190px;
+  left:90px;
+    
+}
+.hosting .intro{
+  font-size:2rem;
+  width:100vw;
+  box-sizing: border-box;
+  padding: 0px 0px;
+  position: relative;
+  top:476px;
+  right:15%;
+  font-size:30px;
+  display:flex;
+  flex-direction: column;
+  
+}
+.hosting .intro button{
+  height:2%;
+  width:50%;
+  position: relative;
+  left:0%;
+    top:2%;
+  background-color: var(--green);
+    border:2px solid white;
+  border-radius: 10px;
+  font-weight: 600;
+  color:var(--white);
+  font-size:17px;
+  display: none;
+  
+}
+  .card{
+    display: flex;
+   
+   flex-direction:column; 
+  }
+
+.card-1{
+  position: absolute;
+  height:300px;
+  
+}
+.card-2{
+  position: absolute;
+
+   
+}
+.card-3{
+  position: absolute;
+  
+  
+
+  
+}
+.card-4{
+ position: absolute;
+ 
+
+
+
+}
+  .bg-green-container{
+ height:110vh;
+  top:127vh;
+  left:28vw;
+    display: none;
+}
+
+.hosting .img-bg{
+  position: absolute;
+  z-index: 2;
+  top:140vh;
+  left:18vw;display: none;
+}
+.img-bg img{
+  height:auto;
+  width:65vw;display: none;
+}
+.text-container{
+  
+  height:30vh;
+  width:28vw;
+  top:173vh;
+  left:57vw;
+  padding: 25px;
+  border-radius:20px;
+  margin:1em;
+  font-size:1.09rem;
+  display:flex;
+  flex-direction: column;display: none;
+  
+  
+}
+.text-container h2{
+  color:var(--green);
+  font-size:2.1rem;
+}
+
+.circle{
+  position: absolute;
+  height:15vh;
+  width:15vh;
+  border-radius:180px;
+  top:135vh;display: none;
+  left:11vw;
+}
+  .testimonial{
+  background:var(--white);
+  position: relative;
+z-index: 3;
+  
+}
+.testimonial h1{
+  height:20vh;
+  width:40vw;
+  font-size:30px;
+ position: relative;
+  left:40vw;
+  top:4vh;
+  
+}
+.testimonial .intro{
+  width:30vw;
+  font-size:4rem;
+  color: var(--green);
+  position: relative;
+  left:25vw;
+  bottom:110px;
+}
+.testimonial .normal-text{
+  font-size:1.3rem;
+  bottom:130px
+}
+.testimonial .common-card-class{
+  bottom:130px;
+  height: 560px;
+}
+
+.footer{
+  height:20vh;
+  width: 100vw;
+
+  
+}
+.footer p{
+  width:45vw;
+  position:relative;
+  top:10vh;
+  left:40vw;
+}
+
+
+
+
+ 
+}
+
