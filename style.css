@@ -254,8 +254,6 @@ display: flex;
 }
 .img-bg img{
   height:90vh;
-  
-  
 }
 .text-container{
   box-sizing: border-box;
@@ -381,17 +379,37 @@ z-index: 3;
   top:10vh;
   left:40vw;
 }
+.footer p a{
+  font-style:none;
+  color:white;
+  
+}
 
 
-
-@media (max-width:1242px){
-  .home .right-container img{
- width:90vw;
+@media screen and (max-width:1242px){
+ 
+  .home .left-container {
+    position: relative;
+    bottom:170px;
+    width:50vw;
+    height:50vh;
  
   
 }
+  .home .right-container{
+    height:50vh
+  }
+  .home .right-container img{
+    position: relative;
+  
+ width:50vw;
+ 
+  
+}
+  
+  
  .hosting{
-  height:250%;
+  height:160vh;
   width:100%;
   background:rgba(128, 128, 128, 0.133);
 display: flex;
@@ -404,16 +422,16 @@ display:-webkit-flex;
   max-width:30vw;
   position:relative;
   top:30px;
-  left:40px;
+  left:90px;
     font-family: 'Roboto', sans-serif;
 }
 .hosting .intro{
   color:black;
-  font-size: 30ppx;
+  font-size: 30px;
   width:30vw;
   box-sizing: border-box;
   position: relative;
-  top:9%;
+  top:270px;
   right:25%;
   font-size:30px;
   display:flex;
@@ -439,77 +457,58 @@ display:-webkit-flex;
   
   
 }
-.card-5{
-  width:22vw;
-  margin:30px;
-  background:var(--white);
-  position:absolute;
-  box-sizing: border-box;
-  text-align: center;
-  padding:20px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-}
+
 .card-1{
   height:340px;
-  top:100vh;
+  top:50vh;
   left:46vw;
    
 }
 .card-2{
   height:360px;
-  top:100vh;
+  top:50vh;
   left:70vw;
    
 }
 .card-3{
-  height:360px;
   
-   top:141vh;
-  left:46vw;
+  
+   top:84vh;
+  
 }
 .card-4{
-  height:340px;
  
-  top:143.1vh;
-  left:70vw;
+ 
+  top:86vh;
+
 
 }
   .bg-green-container{
- 
-  top:200vh;
-  left:25vw;
+ height:110vh;
+  top:127vh;
+  left:28vw;
 }
 
 .hosting .img-bg{
   position: absolute;
   z-index: 2;
-  top:260vh;
-  left:19vw;
-  
-  
-  
-  
+  top:140vh;
+  left:18vw;
 }
 .img-bg img{
-  height:90vh;
-  
-  
+  height:auto;
+  width:65vw;
 }
 .text-container{
-  box-sizing: border-box;
-  height:50vh;
+  
+  height:30vh;
   width:28vw;
-  background:var(--white);
-  position: absolute;
-  z-index:2;
-  top:318vh;
+  top:173vh;
   left:57vw;
   padding: 25px;
   border-radius:20px;
   margin:1em;
-  font-size:1.09em;
+  font-size:1.09rem;
   display:flex;
   flex-direction: column;
   
@@ -517,37 +516,255 @@ display:-webkit-flex;
 }
 .text-container h2{
   color:var(--green);
-  font-size:2.4rem;
-  
-  
-  
+  font-size:2.1rem;
 }
-.text-container .btn{
-  height:30vh;
-  width:10vw;
-  background: var(--green);
-  border:2px solid white;
-  border-radius:7px;
-  color:var(--white);
-  font-weight:500;
-  
-  
-}
+
 .circle{
   position: absolute;
-  height:40vh;
-  width:40vh;
-  background: #8ae4a8;
+  height:15vh;
+  width:15vh;
   border-radius:180px;
-  top:248vh;
-  left:5vw;
-  z-index:3;
-  
+  top:135vh;
+  left:11vw;
+}
+  .testimonial{
+  background:var(--white);
+  position: relative;
+z-index: 3;
   
 }
+.testimonial h1{
+  height:20vh;
+  width:40vw;
+  font-size:30px;
+ position: relative;
+  left:40vw;
+  top:4vh;
+  
+}
+.testimonial .intro{
+  width:30vw;
+  font-size:4rem;
+  color: var(--green);
+  position: relative;
+  left:25vw;
+  bottom:110px;
+}
+.testimonial .normal-text{
+  font-size:1.3rem;
+  bottom:130px
+}
+.testimonial .common-card-class{
+  bottom:130px;
+  height: 560px;
+}
+
+.footer{
+  height:20vh;
+  width: 100vw;
+
+  
+}
+.footer p{
+  width:45vw;
+  position:relative;
+  top:10vh;
+  left:40vw;
+}
+
+
+
 }
 @media  screen and (max-width:800px){
   html{
     font-size:20px;
   }
+    .home .left-container {
+    position: relative;
+    bottom:170px;
+    width:50vw;
+    height:50vh;
+ 
+  
 }
+  .home .right-container{
+    height:50vh
+  }
+  .home .right-container img{
+    position: relative;
+  
+ width:50vw;
+ 
+  
+}
+  
+  
+ .hosting{
+  height:160vh;
+  width:100%;
+  background:rgba(128, 128, 128, 0.133);
+display: flex;
+display:-webkit-flex;
+
+}
+.hosting .preface-text {
+  font-size: var(--font-size);
+  color:var(--green);
+  max-width:30vw;
+  position:relative;
+  top:30px;
+  left:90px;
+    font-family: 'Roboto', sans-serif;
+}
+.hosting .intro{
+  color:black;
+  font-size: 30px;
+  width:30vw;
+  box-sizing: border-box;
+  position: relative;
+  top:270px;
+  right:25%;
+  font-size:30px;
+  display:flex;
+  flex-direction: column;
+  
+  
+  
+  
+  
+}
+.hosting .intro button{
+  height:2%;
+  width:50%;
+  position: relative;
+  left:0%;
+    top:2%;
+  background-color: var(--green);
+    border:2px solid white;
+  border-radius: 10px;
+  font-weight: 600;
+  color:var(--white);
+  font-size:17px;
+  
+  
+}
+
+.card-1{
+  height:340px;
+  top:50vh;
+  left:46vw;
+   
+}
+.card-2{
+  height:360px;
+  top:50vh;
+  left:70vw;
+   
+}
+.card-3{
+  
+  
+   top:84vh;
+  
+}
+.card-4{
+ 
+ 
+  top:86vh;
+
+
+}
+  .bg-green-container{
+ height:110vh;
+  top:127vh;
+  left:28vw;
+}
+
+.hosting .img-bg{
+  position: absolute;
+  z-index: 2;
+  top:140vh;
+  left:18vw;
+}
+.img-bg img{
+  height:auto;
+  width:65vw;
+}
+.text-container{
+  
+  height:30vh;
+  width:28vw;
+  top:173vh;
+  left:57vw;
+  padding: 25px;
+  border-radius:20px;
+  margin:1em;
+  font-size:1.09rem;
+  display:flex;
+  flex-direction: column;
+  
+  
+}
+.text-container h2{
+  color:var(--green);
+  font-size:2.1rem;
+}
+
+.circle{
+  position: absolute;
+  height:15vh;
+  width:15vh;
+  border-radius:180px;
+  top:135vh;
+  left:11vw;
+}
+  .testimonial{
+  background:var(--white);
+  position: relative;
+z-index: 3;
+  
+}
+.testimonial h1{
+  height:20vh;
+  width:40vw;
+  font-size:30px;
+ position: relative;
+  left:40vw;
+  top:4vh;
+  
+}
+.testimonial .intro{
+  width:30vw;
+  font-size:4rem;
+  color: var(--green);
+  position: relative;
+  left:25vw;
+  bottom:110px;
+}
+.testimonial .normal-text{
+  font-size:1.3rem;
+  bottom:130px
+}
+.testimonial .common-card-class{
+  bottom:130px;
+  height: 560px;
+}
+
+.footer{
+  height:20vh;
+  width: 100vw;
+
+  
+}
+.footer p{
+  width:45vw;
+  position:relative;
+  top:10vh;
+  left:40vw;
+}
+
+
+
+
+}
+@media  screen and (max-width:768px){}
