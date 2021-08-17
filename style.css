@@ -654,7 +654,7 @@ display:-webkit-flex;
 
 .card-1{
   height:340px;
-  top:50vh;
+  /*! top:50vh; */
   left:46vw;
    
 }
@@ -771,16 +771,25 @@ z-index: 3;
 
 }
 @media  screen and (max-width:768px){}
-@media  screen and (max-width:575px){
+@media  screen and (max-width:490px){
     html{
     font-size:20px;
   }
   .burger{
-    left:210px
+    
+    left:10vw;
+    
   }
+  .navbar{
+    width:50vw;
+  }
+  .navbar .cross{
+    left:40vw;
+  }
+  
   .home{
     display:flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     
   }
     .home .left-container {
@@ -788,10 +797,11 @@ z-index: 3;
     bottom:110px;
       left:30px;
     width:100vw;
-    height:40vh;
+    height:70vh;
 }
   .home .right-container{
-    height:50vh;
+    height:80vh;
+
      
   }
   .home .right-container img{
@@ -804,14 +814,14 @@ z-index: 3;
   width:100%;
   background:rgba(128, 128, 128, 0.133);
 display: flex;
-  
+  box-sizing:border-box;
 display:-webkit-flex;
 
 }
 .hosting .preface-text {
   
-  top:190px;
-  left:90px;
+  top:10px;
+  left:100px;
     
 }
 .hosting .intro{
@@ -842,32 +852,43 @@ display:-webkit-flex;
   display: none;
   
 }
-  .card{
+  
+  .card {
+    position: absolute;
+    height: 300px;
     display: flex;
-   
-   flex-direction:column; 
+    flex-direction: column;
+}
+  .card-5{
+  display: block;
+    
+    
   }
 
 .card-1{
-  position: absolute;
-  height:300px;
+ position: relative;
+  height:400px;
+  width:60vw;
+  top:700px;
+  left:14vw;
+  
   
 }
 .card-2{
   position: absolute;
-
+display:none;
    
 }
 .card-3{
   position: absolute;
-  
+  display:none;
   
 
   
 }
 .card-4{
  position: absolute;
- 
+ display:none;
 
 
 
