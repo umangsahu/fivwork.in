@@ -1,96 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-
-*{
-    margin:0px;
-    padding: 0px;
-}
-.navbar{
-    display:none;
-
-}
-:root{
-    --green:green;
-    --white:white;
-
-}
-html{
-    font-size:19px;
-    
-}
 /* home section(first section) css */
 .home{
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+  flex-direction: column;
   
 }
 
-   .home .preface-text{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  flex-direction: column;
-
-}
-.home .preface-text .text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size:2.3rem;
-    color:var(--green);
-
-font-family: 'Oswald', sans-serif;
-box-sizing: border-box;
-height: auto;
-width: 232px;
-margin: 0px -32px 0px 0px;
-
-    }
-    .home .preface-text .anchor{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-    }
-    .home .preface-text a{
-        display: block;
-        height:50px;
-           width:120px;
-           background:var(--green);
-           margin:auto;
-           text-align: center;
-           box-sizing:border-box;
-           margin-top:30px;
-        margin-left:30px;
-           padding:10px;
-           border-radius:15px;
-           text-decoration: none;
-           color:var(--white);
-    }
-
-.home .preface-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:50vw;
-   
  
-}
-.home .preface-img img{
-    margin-left:50px;
-    padding-left:50px;
-    height:90%;
-    width:auto;
 
-}
+
 /* second section is hosting and is css */
 .hosting{
     display: flex;
     justify-content: center;
     align-items: center;
     background:rgba(123, 120, 120, 0.181);
-height:1000px;
+height:1300px;
 
     
  
@@ -171,99 +98,41 @@ padding:0px 0px ;
     
     
     
+    flex-direction: column;
 }
 .upperbox .box1,.upperbox .box2{
-     display:flex;
-     justify-content: center;
-    align-items:center;
+    
       flex-direction:column;
     /* margin: -90px 20px 10px 80px; */
-    margin: -91px 20px 10px 67px;
-     background:white;
-    height:400px;
-    box-sizing: border-box;
-        padding: 0px 40px ;
-    border-radius: 20px;
-   
-}
-.upperbox .box1 .img, .upperbox .box2 .img{
-    box-sizing: border-box;
-     display:block;
-    background:var(--green);
-    height:70px;
-    width:70px;
-    background:var(--green);
-     border-radius:90px;
-       
-    margin-bottom: 20px;
-}
-.upperbox .box1 img, .upperbox .box2 img{
- display: flex;
-    height:40px;
-    width:40px;
-   margin:auto;
-    position: relative;
-    top:10px;
-      
-  
+    margin: 11px 121px 43px 42px;
+    height:255px;
    
    
-    
-    
-    
 }
+
 .right-hosting .lowerbox{
     display:flex;
      justify-content: center;
     align-items:center;
     
-    
+    flex-direction: column;
     
 }
 .lowerbox .box3,.lowerbox .box4{
-      display:flex;
-     justify-content: center;
-    align-items:center;
-      flex-direction:column;
+  
     /* margin: 10px 20px 10px 80px; */
-    margin: 10px 20px 10px 69px;
-     background:white;
-    height:400px;
-    box-sizing: border-box;
-        padding: 0px 40px ;
-    border-radius: 20px;
-}
-.lowerbox .box3 .img, .lowerbox .box4 .img{
-   box-sizing: border-box;
-     display:block;
-    background:var(--green);
-    height:70px;
-    width:70px;
-    background:var(--green);
-     border-radius:90px;
-       
-    margin-bottom: 20px;
-    
-}
-.lowerbox .box3 img, .lowerbox .box4 img{
-display: flex;
-     height:40px;
-    width:40px;
-   margin:auto;
-    position: relative;
-    top:10px;
+    margin: 6px 114px 60px 46px;
+     
+    height:255px;
    
-   
-    
-    
-    
 }
+
 
 /* section third  */
 .third{
     display:flex;
     justify-content: center;
-;
+
    height:918px;
    background:rgba(123, 120, 120, 0.181);
 }
@@ -272,6 +141,9 @@ height:918px;
 width:25vw;
 background:var(--green);
 margin-right:203px;
+/*! flex-direction: column; */
+display: flex;
+flex-direction: column;
 }
 .bg-green .circle {
     height: 15vw;
@@ -289,11 +161,11 @@ margin-right:203px;
     margin: 81px 0px 0px -129px;
 }
 .bg-green .text-container{
-    height: 274px;
+    /*! height: 274px; */
     /* margin: -138px 0px 0px 305px; */
-    margin: -9vw 0px 0px 33vw;
+    margin: 5vw 4vw 0vw -8vw;
     background: var(--white);
-    width: 331px;
+    width: 362px;
     border-radius: 20px;
     padding: 14px;
     position: relative;
@@ -330,11 +202,13 @@ margin-right:203px;
 .testimonial .clients{
     display:flex;
       align-items: center;
+    flex-direction: column;
   
     
 }
 .clients .upperbox{
-    display: flex
+    display: flex;
+    align-items: center;
 }
 .upperbox .client1{
     display: flex;
@@ -343,8 +217,9 @@ margin-right:203px;
     width:vw;
     box-sizing:border-box;
      border-radius:20px;
-    padding:30px;
+    padding:20px;
     
+    margin: 37px 2px 2px 46px;
 }
 .client1 img{
     display: block;
@@ -358,10 +233,11 @@ margin-right:203px;
     flex-direction: column;
     background:rgba(123, 120, 120, 0.181);
     width:vw;
-    box-sizing:border-box;
+    /*! box-sizing:border-box; */
      border-radius:20px;
-    padding:30px;
+    padding:20px;
     
+    margin: 63px 75px 31px 76px;
 }
 .client2 img{
     display: block;
@@ -380,8 +256,10 @@ margin-right:203px;
     width:vw;
     box-sizing:border-box;
      border-radius:20px;
-    padding:30px;
+    /*! padding:20px; */
     
+    padding: 20px;
+    margin: 8px 83px 5px 48px;
 }
 .client3 img{
     display: block;
@@ -397,8 +275,10 @@ margin-right:203px;
     width:vw;
     box-sizing:border-box;
      border-radius:20px;
-    padding:30px;
+    /*! padding:30px; */
     
+    padding: 20px;
+    margin: 3px 78px 2px -5px;
 }
 .client4 img{
     display: block;
@@ -417,13 +297,3 @@ margin-right:203px;
     margin-top:30px;
   
 }
-
-/* utility class */
-
-    .font-family{
-        font-family: 'Oswald', sans-serif;
-    
-    }
- .m-x{
-        margin:4px 21px 0px 18px;
-    }
