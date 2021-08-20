@@ -287,7 +287,8 @@ margin-right:203px;
 }
 .bg-green .text-container{
     height: 274px;
-    margin: -138px 0px 0px 305px;
+    /* margin: -138px 0px 0px 305px; */
+    margin: -9vw 0px 0px 33vw;
     background: var(--white);
     width: 331px;
     border-radius: 20px;
