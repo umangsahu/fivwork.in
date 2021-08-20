@@ -176,7 +176,8 @@ padding:0px 0px ;
      justify-content: center;
     align-items:center;
       flex-direction:column;
-    margin: -90px 20px 10px 80px;
+    /* margin: -90px 20px 10px 80px; */
+    margin: -91px 20px 10px 67px;
      background:white;
     height:400px;
     box-sizing: border-box;
@@ -223,7 +224,8 @@ padding:0px 0px ;
      justify-content: center;
     align-items:center;
       flex-direction:column;
-    margin: 10px 20px 10px 80px;
+    /* margin: 10px 20px 10px 80px; */
+    margin: 10px 20px 10px 69px;
      background:white;
     height:400px;
     box-sizing: border-box;
