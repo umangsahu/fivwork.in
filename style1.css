@@ -5,11 +5,45 @@
     padding: 0px;
 }
 .navbar{
-    display:none;
+    display:flex;
 
+    position: fixed;
+    background: black;
+    color: var(--white);
+    
+  width:0px;
+    /*! align-items: center; */
+    justify-content: center;
+    height: 600px;
+    z-index: 8;
+    
+}
+.item {
+  margin: 30px;
+  list-style: none;
+  font-size: 2rem;
+  display: none;
+}
+.burger{
+   position:absolute;
+    height:30px;
+    width:30px;
+    bottom:750px;
+    background:white;
+    z-index:9;
+  
+    right:5vw;
+    cursor: pointer;
+    
+}
+.burger .line{
+    height:3px;
+    width:px;
+    background:black;
+    margin:5px
 }
 :root{
-    --green:green;
+    --green:rgb(57, 152, 57);
     --white:white;
 
 }
@@ -417,6 +451,23 @@ margin-right:203px;
     margin-top:30px;
   
 }
+/* class for script to active the navbar */
+.active-navbar{
+ animation: slide 3s 1; 
+ height:80px;
+ transition: height 1s ease-in-out;
+width:100%;
+ position: relative;
+}
+.active-navbar ul{
+    display: flex;
+    
+}
+.active-navbar .item{
+    display: flex;
+    font-size: 1.2rem
+}
+
 
 /* utility class */
 
