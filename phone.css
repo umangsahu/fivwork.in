@@ -588,7 +588,7 @@ width:99.92vw;
 
 /* second section is hosting and is css */
     .hosting{
-        height:1300px
+        /*! height:1300px */
     }
     .hosting-container {
         flex-direction: column;
@@ -697,7 +697,7 @@ padding:0px 0px ;
     display:flex;
     justify-content: center;
 
-   height:618px;
+   /*! height:618px; */
    background:rgba(123, 120, 120, 0.181);
 }
 .third .bg-green{
@@ -816,7 +816,7 @@ flex-direction: column;
     display:flex;
     align-items: center;
     justify-content: center;
-    height:200px;
+    /*! height:200px; */
     background:black;
     color:white;
     margin-top:30px;}
