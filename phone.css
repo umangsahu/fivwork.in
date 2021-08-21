@@ -128,7 +128,7 @@ padding:0px 0px ;
     display:flex;
     justify-content: center;
 
-   height:918px;
+   /*! height:918px; */
    background:rgba(123, 120, 120, 0.181);
 }
 .third .bg-green{
@@ -286,7 +286,7 @@ flex-direction: column;
     display:flex;
     align-items: center;
     justify-content: center;
-    height:200px;
+    /*! height:200px; */
     background:black;
     color:white;
     margin-top:30px;
@@ -320,7 +320,7 @@ width:99.94vw;
 
 /* second section is hosting and is css */
     .hosting{
-        height:1300px
+       /* height:1300px*/
     }
     .hosting-container {
         flex-direction: column;
@@ -406,7 +406,7 @@ padding:0px 0px ;
     
       flex-direction:column;
     /* margin: -90px 20px 10px 80px; */
-    margin: 10px 56px 2px 56px;
+    margin: 10px 56px 10px 56px;
     height:224px;
     padding:5px;
    
@@ -422,7 +422,7 @@ padding:0px 0px ;
         box-sizing: border-box;
         /*! width:100vw; */
         padding:5px;
-       margin: 10px 56px 2px 56px;
+       margin: 10px 56px 10px 56px;
         
         
         
@@ -436,10 +436,11 @@ padding:0px 0px ;
     display:flex;
     justify-content: center;
 
-   height:618px;
+   /*! height:618px; */
    background:rgba(123, 120, 120, 0.181);
 }
 .third .bg-green{
+   
 height:618px;
 width:45vw;
 
@@ -555,7 +556,7 @@ flex-direction: column;
     display:flex;
     align-items: center;
     justify-content: center;
-    height:200px;
+    /*! height:200px; */
     background:black;
     color:white;
     margin-top:30px;
