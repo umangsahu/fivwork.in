@@ -12,20 +12,11 @@
 
 
 /* second section is hosting and is css */
-.hosting{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background:rgba(123, 120, 120, 0.181);
-height:1300px;
-
-    
- 
-}
 .hosting-container{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .hosting-container .left-hosting{
 
@@ -85,9 +76,10 @@ padding:0px 0px ;
 }
 .right-hosting{
     display: flex;
-    flex-direction:column;
+   
     justify-content: center;
     align-items:center;
+   
     
     
 }
@@ -95,17 +87,19 @@ padding:0px 0px ;
     display:flex;
      justify-content: center;
     align-items:center;
-    
-    
-    
     flex-direction: column;
+    
+    
+    
+
 }
 .upperbox .box1,.upperbox .box2{
     
       flex-direction:column;
     /* margin: -90px 20px 10px 80px; */
-    margin: 11px 121px 43px 42px;
-    height:255px;
+    margin: 2px 110px 2px 42px;
+    height:232px;
+    padding:5px;
    
    
 }
@@ -114,16 +108,17 @@ padding:0px 0px ;
     display:flex;
      justify-content: center;
     align-items:center;
+        flex-direction: column;
+   
     
-    flex-direction: column;
     
 }
 .lowerbox .box3,.lowerbox .box4{
   
     /* margin: 10px 20px 10px 80px; */
-    margin: 6px 114px 60px 46px;
-     
-    height:255px;
+    margin: 2px 110px 4px 46px;
+       padding:5px;
+    height:232px;
    
 }
 
@@ -140,7 +135,7 @@ padding:0px 0px ;
 height:918px;
 width:25vw;
 background:var(--green);
-margin-right:203px;
+margin-right:19px;
 /*! flex-direction: column; */
 display: flex;
 flex-direction: column;
@@ -297,3 +292,246 @@ flex-direction: column;
     margin-top:30px;
   
 }
+@media screen and (max-width:698px){
+  /* home section(first section) css */
+    html{
+        font-size: 14px;
+    }
+
+
+/* second section is hosting and is css */
+    .hosting{
+        height:1300px
+    }
+    .hosting-container {
+        flex-direction: column;
+     
+    }
+
+.hosting-container .left-hosting{
+
+   
+    width:100vw;
+}
+
+.left-hosting .main-text{
+    color:var(--green);
+    display: block;
+      text-align: center;
+    font-size:2.3rem;
+    box-sizing: border-box;
+height: auto;
+width:100vw;
+    margin:0px 2px 0px 2px;
+padding:0px 0px ;
+    
+   
+}
+.left-hosting .main-text::before{
+    content:"Hosting";
+}
+.left-hosting .secondary-text{
+    
+    display: block;
+      text-align: center;
+    font-size:1.5rem;
+    box-sizing: border-box;
+    width:100vw;
+    padding:0px 10px;
+   margin: 0px 0px 0px 6px
+    
+    
+    
+}
+   .left-hosting a{
+    display: block;
+    height:50px;
+       width:120px;
+       background:var(--green);
+       margin:auto;
+       text-align: center;
+       box-sizing:border-box;
+       margin-top:30px;
+       
+       padding:10px;
+       border-radius:15px;
+       text-decoration: none;
+       color:var(--white);
+}
+
+.hosting-container .right-hosting{
+   
+   
+    width:100vw;
+}
+.right-hosting{
+    display: flex;
+   
+    justify-content: center;
+    align-items:center;
+   
+    
+    
+}
+.right-hosting .upperbox{
+    display:flex;
+     justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+    
+    
+
+}
+.upperbox .box1,.upperbox .box2{
+    
+      flex-direction:column;
+    /* margin: -90px 20px 10px 80px; */
+    margin: 10px 19px 2px 19px;
+    height:229px;
+    padding:5px;
+   
+   
+}
+
+
+.lowerbox .box3,.lowerbox .box4{
+  
+    /* margin: 10px 20px 10px 80px; */
+    margin: 10px 19px 2px 19px;
+       padding:5px;
+    height:229px;
+   
+}
+
+
+/* section third  */
+.third{
+    display:flex;
+    justify-content: center;
+
+   height:618px;
+   background:rgba(123, 120, 120, 0.181);
+}
+.third .bg-green{
+height:618px;
+width:45vw;
+
+margin-right:9px;
+/*! flex-direction: column; */
+display: flex;
+flex-direction: column;
+}
+.bg-green .circle {
+    height: 15vw;
+    width: 15vw;
+    background: var(--green);
+    border-radius: 178px;
+    margin: 21px 4px 3px -67px;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.bg-green img{
+    height: auto;
+    width: 65vw;
+    margin: 41px 0px 0px -50px;
+}
+.bg-green .text-container{
+     height: 184px; 
+    /* margin: -138px 0px 0px 305px; */
+    margin: 5vw 3vw 0vw vw;
+    background: var(--white);
+    width:55vw;
+    border-radius: 20px;
+    padding: 14px;
+    position: relative;
+    z-index: 2;
+
+}
+.text-container span {
+    font-size: 2.1rem;
+    color: var(--green);
+}
+/* tstimonial section css */
+
+
+.testimonial span{
+    color:var(--green);
+    font-size:3.3rem;
+}
+.testimonial .intro{
+    color:black;
+    font-size:1.4rem;
+    width: 100vw;
+    padding:12px 12px;
+
+}
+
+.clients .upperbox{
+    display: flex;
+    align-items: center;
+       flex-direction: column;
+}
+.upperbox .client1{
+   
+    width:60vw;
+    box-sizing:border-box;
+     border-radius:20px;
+    padding:20px;
+    
+   margin:auto;
+     margin-top:30px;
+}
+
+.upperbox .client2{
+    display: flex;
+
+    width:60vw;
+    box-sizing:border-box;
+     border-radius:20px;
+    padding:20px;
+    
+   margin:auto;
+     margin-top:30px;
+}
+
+.clients .lowerbox{
+ 
+           flex-direction: column;
+}
+.lowerbox .client3{
+   
+   
+    width:60vw;
+    box-sizing:border-box;
+     border-radius:20px;
+    padding:20px;
+    
+   margin:auto;
+     margin-top:30px
+}
+
+.lowerbox .client4{
+   
+  
+    width:60vw;
+    box-sizing:border-box;
+     border-radius:20px;
+    padding:20px;
+    
+   margin:auto;
+    margin-top:30px
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    background:black;
+    color:white;
+    margin-top:30px;
+  
+    }}
