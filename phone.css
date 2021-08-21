@@ -407,10 +407,11 @@ padding:0px 0px ;
       flex-direction:column;
     /* margin: -90px 20px 10px 80px; */
     margin: 10px 56px 2px 56px;
-    height:219px;
+    height:224px;
     padding:5px;
    
    
+      width: 50vw;
 }
 
 
@@ -425,7 +426,8 @@ padding:0px 0px ;
         
         
         
-        height: 219px;
+        height: 224px;
+        width: 50vw;
     }
 
 
@@ -845,4 +847,22 @@ width:100vw;
  
 
 
+}
+@media screen and (max-width:240px){
+  /* home section(first section) css */
+    html{
+        font-size:12px
+    }
+ 
+    .home .preface-text a{
+        width:80px;
+        margin-left:5px;
+    }
+    .bg-green{
+         margin:0px 0px 0px 26px ;
+        
+    }
+    .bg-green .text-container{
+        margin:10px 20px 0px -26px ;
+    }
 }
