@@ -24,21 +24,22 @@
   font-size: 2rem;
   display: none;
 }
-.burger{
-   position:absolute;
+.burgerr{
+   position:relative;
     height:30px;
     width:30px;
-    bottom:750px;
+  
     background:white;
     z-index:9;
   
-    right:5vw;
+    right:-4vw;
     cursor: pointer;
     
+   top: ;
 }
-.burger .line{
+.burgerr .line{
     height:3px;
-    width:px;
+    /*! width:; */
     background:black;
     margin:5px
 }
@@ -96,7 +97,7 @@ margin: 0px -32px 0px 0px;
            text-align: center;
            box-sizing:border-box;
            margin-top:30px;
-        margin-left:30px;
+        margin-left:11px;
            padding:10px;
            border-radius:15px;
            text-decoration: none;

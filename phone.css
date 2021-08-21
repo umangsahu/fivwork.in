@@ -575,10 +575,12 @@ width:99.92vw;
     font-size: 1.2rem;
 }
 }
-@media screen and (max-width:354px){
+@media screen and (max-width:368px){
   /* home section(first section) css */
-   
-    
+    html{
+        font-size:14px
+    }
+ 
 
 
 /* second section is hosting and is css */
@@ -823,7 +825,7 @@ flex-direction: column;
     
     .active-navbar{
  height:180px;
-width:98vw;
+width:100vw;
 }
     .active-navbar ul{
         flex-direction: column;
@@ -834,5 +836,13 @@ width:98vw;
 }
 
   
-    }}
+    }
+@media screen and (max-width:266px){
+  /* home section(first section) css */
+    html{
+        font-size:12px
+    }
+ 
 
+
+}
