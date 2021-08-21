@@ -396,8 +396,8 @@ padding:0px 0px ;
 
 
 .lowerbox .box3,.lowerbox .box4{   
-        display: block;
-          text-align: center;
+        display: flex;
+          /*! text-align: center; */
         font-size:1rem;
         box-sizing: border-box;
         /*! width:100vw; */
@@ -542,9 +542,8 @@ flex-direction: column;
     }}
 @media screen and (max-width:354px){
   /* home section(first section) css */
-    html{
-        font-size: 116px;
-    }
+   
+    
 
 
 /* second section is hosting and is css */
@@ -635,7 +634,7 @@ padding:0px 0px ;
     
       flex-direction:column;
     /* margin: -90px 20px 10px 80px; */
-    margin: 10px 19px 2px 19px;
+    margin: 10px 26px 2px 27px;
     height:229px;
     padding:5px;
    
@@ -646,7 +645,7 @@ padding:0px 0px ;
 .lowerbox .box3,.lowerbox .box4{
   
     /* margin: 10px 20px 10px 80px; */
-    margin: 10px 19px 2px 19px;
+    margin: 10px 26px 2px 26px;
        padding:5px;
     height:229px;
    
@@ -671,11 +670,11 @@ display: flex;
 flex-direction: column;
 }
 .bg-green .circle {
-    height: 15vw;
-    width: 15vw;
+    height: 18vw;
+    width: 18vw;
     background: var(--green);
     border-radius: 178px;
-    margin: 21px 4px 3px -67px;
+    margin: 21px 4px 3px -75px;
     position: absolute;
     z-index: 3;
     
@@ -683,15 +682,15 @@ flex-direction: column;
 
 .bg-green img{
     height: auto;
-    width: 65vw;
+    width: 75vw;
     margin: 41px 0px 0px -50px;
 }
 .bg-green .text-container{
-     height: 184px; 
+     height: 220px; 
     /* margin: -138px 0px 0px 305px; */
     margin: 5vw 3vw 0vw vw;
     background: var(--white);
-    width:55vw;
+    width:64vw;
     border-radius: 20px;
     padding: 14px;
     position: relative;
