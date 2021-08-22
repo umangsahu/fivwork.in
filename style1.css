@@ -24,6 +24,11 @@
   font-size: 2rem;
   display: none;
 }
+.item a{
+    color:white;
+    cursor:pointer;
+    text-decoration: none;
+}
 .burgerr{
    position:relative;
     /*! height:30px; */
