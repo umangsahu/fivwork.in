@@ -79,7 +79,7 @@ html{
 font-family: 'Oswald', sans-serif;
 box-sizing: border-box;
 height: auto;
-width: 232px;
+width: 210px;
 margin: 0px -32px 0px 0px;
 
     }
@@ -90,14 +90,14 @@ margin: 0px -32px 0px 0px;
     }
     .home .preface-text a{
         display: block;
-        height:50px;
+        height:45px;
            width:120px;
            background:var(--green);
            margin:auto;
            text-align: center;
            box-sizing:border-box;
            margin-top:30px;
-        margin-left:11px;
+        margin-left:3px;
            padding:10px;
            border-radius:15px;
            text-decoration: none;

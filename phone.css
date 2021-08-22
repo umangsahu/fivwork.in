@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
 
+    /*! display: none; */
 }
 .hosting-container .left-hosting{
 
@@ -179,10 +180,13 @@ flex-direction: column;
     
     align-items: center;
     
+    /*! display: none; */
 }
 .testimonial h1{
    margin:40px 30px 0px 0px ;
     
+   height: 30px;
+   width: 108px;
 }
 .testimonial span{
     color:var(--green);
@@ -340,7 +344,7 @@ width:99.94vw;
     font-size:2.3rem;
     box-sizing: border-box;
 height: auto;
-width:100vw;
+width:95vw;
     margin:0px 2px 0px 2px;
 padding:0px 0px ;
     
@@ -355,7 +359,7 @@ padding:0px 0px ;
       text-align: center;
     font-size:1.5rem;
     box-sizing: border-box;
-    width:100vw;
+    width:87vw;
     padding:0px 10px;
    margin: 0px 0px 0px 6px
     
@@ -491,7 +495,7 @@ flex-direction: column;
 .testimonial .intro{
     color:black;
     font-size:1.4rem;
-    width: 100vw;
+    width: 81vw;
     padding:12px 12px;
 
 }
@@ -593,6 +597,7 @@ width:99.92vw;
     .hosting-container {
         flex-direction: column;
      
+        /*! display: none; */
     }
 
 .hosting-container .left-hosting{
@@ -608,7 +613,7 @@ width:99.92vw;
     font-size:2.3rem;
     box-sizing: border-box;
 height: auto;
-width:100vw;
+width:88vw;
     margin:0px 2px 0px 2px;
 padding:0px 0px ;
     
@@ -621,9 +626,9 @@ padding:0px 0px ;
     
     display: block;
       text-align: center;
-    font-size:1.5rem;
+    font-size:1.2rem;
     box-sizing: border-box;
-    width:100vw;
+    width:84vw;
     padding:0px 10px;
    margin: 0px 0px 0px 6px
     
@@ -632,8 +637,8 @@ padding:0px 0px ;
 }
    .left-hosting a{
     display: block;
-    height:50px;
-       width:120px;
+    height:38px;
+       width:117px;
        background:var(--green);
        margin:auto;
        text-align: center;
@@ -699,6 +704,7 @@ padding:0px 0px ;
 
    /*! height:618px; */
    background:rgba(123, 120, 120, 0.181);
+    display: none;
 }
 .third .bg-green{
 height:618px;
@@ -747,11 +753,13 @@ flex-direction: column;
 .testimonial span{
     color:var(--green);
     font-size:3.3rem;
+    /*! height: 97px; */
+    /*! width: 30px; */
 }
 .testimonial .intro{
     color:black;
-    font-size:1.4rem;
-    width: 100vw;
+    font-size:1.2rem;
+    width: 79vw;
     padding:12px 12px;
 
 }
